@@ -1,0 +1,6 @@
+// https://dev.to/vikrantnegi/creating-a-multi-language-app-in-react-native-1joj
+
+import { Dimensions, Platform } from 'react-native';
+
+export const DEVICE_WIDTH = Dimensions.get(`window`).width;
+export const DEVICE_HEIGHT = Dimensions.get(`window`).height;
